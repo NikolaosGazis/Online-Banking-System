@@ -4,4 +4,4 @@
 [Blank]
 
 ## Licence
-This project is under the [MIT Licenc](https://github.com/NikolaosGazis/Online-Banking-System?tab=MIT-1-ov-file).
+This project is under the [MIT Licence](https://github.com/NikolaosGazis/Online-Banking-System?tab=MIT-1-ov-file).
