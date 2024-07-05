@@ -1,5 +1,6 @@
 // Packages //
-// Class //
+
+// Core //
 public class SignUp {
     public static void createAccount(String username, String password, double balance) {
         // Create new Account (object) with the given information //

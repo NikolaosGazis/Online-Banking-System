@@ -1,5 +1,4 @@
 // Packages //
-// Class // 
-public class Login {
-    
-}
+
+// Core // 
+public class Login {}

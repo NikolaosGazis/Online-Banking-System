@@ -1,13 +1,13 @@
 // Packages //
-import java.util.ArrayList;
-import java.util.List;
+// import java.util.ArrayList;
+// import java.util.List;
 
-// Class //
+// Core //
 public class Account { // Information about every account.
     private long accountNumber;
     private String username;
     private double balance;
-    private List<String> transactionHistory = new ArrayList<>(); // Hold transaction history of each account.
+    // private List<String> transactionHistory = new ArrayList<>(); // Hold transaction history of each account.
 
     // Getter - accountNumber //
     public long getAccountNumber() {
