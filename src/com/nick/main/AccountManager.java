@@ -26,9 +26,17 @@ public class AccountManager {
         return null; // Account not found.
     }
 
+    // Check if account exicts //
+    public boolean accountExists(String username) {
+        return getAccountByUsername(username) != null;
+    }
+
     // Authenticate User (Login) //
     public boolean authenticateUser(String username, String password) {
-        System.out.println("hey mom");
-        return true;
+        Account account = getAccountByUsername(username);
+        if (account != null && account.getPassword().equals(password)) {
+            return true;
+        }
+        return false;
     }
 }
